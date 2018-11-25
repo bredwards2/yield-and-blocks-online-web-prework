@@ -1,13 +1,16 @@
-def hello_t
-   i = 0
+alled either with or without a block:
+
+def hello_t(array)
+  if block_given?
+    i = 0
  
-  while i < array.length
-    yield (array[i])
-    i = i + 1
-  end
-  
-  array
-else
+    while i < array.length
+      yield(array[i])
+      i = i + 1
+    end
+ 
+    array
+  else
     puts "Hey! No block was given!"
   end
 end
