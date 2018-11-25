@@ -1,5 +1,3 @@
-alled either with or without a block:
-
 def hello_t(array)
   if block_given?
     i = 0
