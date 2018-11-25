@@ -6,6 +6,7 @@ def hello_t
     i = i + 1
   end
   
+  
   array
 end
 
